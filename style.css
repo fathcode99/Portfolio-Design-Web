@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+/* Start - CSS Navigation */
+.nav {
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand {
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+}
+
+.nav-brand img {
+    margin: 0 15px;
+}
+.nav-brand a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Lobster';
+    font-size: 20px;
+    align-items: center;
+}
+.nav-brand a:hover {
+    cursor: pointer;
+}
+
+.nav-link {
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav-link a {
+    margin: 0 40px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-link a:hover {
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+/* End - CSS Navigation */
+
+/* Start - CSS Main Container */
+.main-cont {
+    background-color: rgb(43, 43, 43);
+    padding: 30px 15px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.main-cont h1 {
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+}
+
+.main-cont p {
+    width: 55%;
+    text-align: center;
+    padding: 5px 0;
+}
+.search-bar {
+    background-color: aliceblue;
+    width: 45%;
+    color: rgb(173, 173, 173);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.trend-button {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 43, 43);
+    padding-bottom: 20px;
+}
+.trend-button a {
+    text-decoration: none;
+}
+
+.explore {
+    background-color: aliceblue;
+    display: flex;
+    margin: 10px;
+    padding: 5px 20px;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+.explore:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+/* End - CSS Main Container */
+
+/* Start - CSS Main Card */
+.intro-card {
+    font-size: 35px;
+    font-weight: 600;
+    color: aliceblue;
+    margin: 20px 0;
+    padding: 20px 0 20px 30px;
+    background-color: rgb(43, 43, 43);
+}
+
+.main-card {
+    background-color: rgb(43, 43, 43);
+    padding: 30px;
+}
+        
+.sub-card {
+    display: flex;
+    margin: 40px 0;
+}
+
+.description-product {
+    height: 30%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: aliceblue;
+}
+.description-product h1 {
+    font-size: 30px;
+}
+.description-product p {
+    font-weight: 100;
+    font-size: 16px;
+    padding-bottom: 0;
+}
+.order {
+    font-size: 21px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.order:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+.sub-card img {
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    align-items: right;
+}
+/* End CSS Main Card */
