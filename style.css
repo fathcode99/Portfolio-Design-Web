@@ -192,6 +192,7 @@ body {
 .size-img-sm {
     width: 25px;
     height: 25px;
+    margin: 0 5px;
 }
 
 /* footer a {
