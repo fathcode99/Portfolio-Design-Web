@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 150px;
+    background-color: rgb(7, 7, 7);
+}
+
+.bg-black {
+    background-color: rgb(14, 14, 14);
+}
+
+.bg-softblack {
+    background-color: rgb(19, 19, 19);
+}
+.bg-red {
+    background-color: rgb(204, 0, 0);
+}
+
+.size-img {
+    height: 3em;
+}
+
+.size-img2 {
+    height: 5em;
+}
+.size-img-pct {
+    height: 25em;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+}
+
+div h5 {
+    color: red;
+}
+
+.fs-custom {
+    font-size: 12px;
+}
+
+.fs-custom2 {
+    font-size: 56px;
+}
+
+.fs-custom3 {
+    font-size: 112px;
+}
+
+div button {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    
+}
+
+/* ----------------- */

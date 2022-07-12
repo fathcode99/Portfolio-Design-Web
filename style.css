@@ -1,62 +1,209 @@
 * {
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
+    margin: 0 200px;
     font-family: 'Poppins', sans-serif;
-    margin: 0 150px;
-    background-color: rgb(7, 7, 7);
+    background-color: black;
 }
 
-.bg-black {
-    background-color: rgb(14, 14, 14);
+.row {
+    border: 1px solid black;
+    background-color: black;
+}
+
+.fs-custom1 {
+    font-size: 12px;
+}
+
+.fs-custom2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bg-red {
+    background-color: rgb(206, 0, 0);
 }
 
 .bg-softblack {
     background-color: rgb(19, 19, 19);
 }
-.bg-red {
-    background-color: rgb(204, 0, 0);
+
+.bg-white {
+    background-color: white;
+}
+
+/* CSS-NAVIGATION BAR */
+.box-nav {
+    padding: 5px 5px;
+    /* background-color: gray; */
+    margin: 0px 0px;
+    text-align: center;
+}
+
+.size-img-logo {
+    width: 10%;
+    height: 10%;
+}
+
+.box-nav a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    margin: 0 15px;
+}
+
+/* CSS-MAIN CONTAINER */
+.box-cont {
+    padding: 0px 30px 0px 0px;
+    /* background-color: gray; */
+    /* margin: 0px 0px; */
+    text-align: start;
+    color: white;
+}
+
+.box-cont h4 {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 0px;
 }
 
 .size-img {
-    height: 3em;
+    height: 110%;
+    width: 110%;
 }
 
-.size-img2 {
-    height: 5em;
-}
-.size-img-pct {
-    height: 25em;
+.button {
+    padding: 5px 20px;
+    border: 0;
+    background-color: red;
+    color: white;
+    font-weight: bold;
 }
 
-div a {
-    text-decoration: none;
+/* CSS-FIRST CARD */
+.box-card {
     color: white;
 }
 
-div h5 {
+.box-card a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.size-img-icon {
+    height: 30%;
+    width: 30%;
+}
+
+/* CSS-FEATURE */
+.button-view {
+    padding: 5px 20px;
+    border: 0;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* CSS-SECOND CARD */
+.box {
+    padding: 30px;
+    background-color: gray;
+    margin: 10px -5px;
+    text-align: center;
+}
+
+.sub-box-card {
+    margin: 20px 0 20px 0;
+}
+
+.container h1 {
     color: red;
 }
 
-.fs-custom {
-    font-size: 12px;
-}
-
-.fs-custom2 {
-    font-size: 56px;
-}
-
-.fs-custom3 {
-    font-size: 112px;
-}
-
-div button {
-    background-color: red;
+.container h2 {
     color: white;
-    font-size: 12px;
-    
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
 }
 
-/* ----------------- */
+.container h3 {
+    color: white;
+    /* letter-spacing: 2px; */
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0 0 10px 0;
+}
+
+.container p {
+    color: white;
+}
+
+/* LAST CARD */
+
+.last-card {
+    color: white;
+    font-weight: bold;
+}
+.card-img-custom {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.container h5 {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin: 15px 0 0 0;
+}
+
+.container .col-6 a {
+    text-decoration: none;
+    color: red;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+.container .col-6 a:hover {
+    color: rgb(255, 136, 0);
+}
+
+/* CSS-FOOTER-MENU  */
+.footer-menu a {
+    color: white;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 600;
+}
+
+/* CSS - FOOTER SOCIAL MEDIA */
+.size-img-sm {
+    width: 25px;
+    height: 25px;
+}
+
+/* footer a {
+    margin: 0 1px;
+} */
+
+/* HOVER */
+a:hover {
+    color: rgb(255, 136, 0);
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
