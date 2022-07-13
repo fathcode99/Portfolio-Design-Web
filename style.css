@@ -34,7 +34,6 @@ body {
 
 .nav-bar-row a:hover {
     background-color: red;
-
 }
 
 .search-bar button {
@@ -46,3 +45,117 @@ body {
     font-weight: 400;
     font-size: 14px;
 }
+/* TITLE CARD */
+.title-card h5 {
+    border-bottom: 3px solid rgb(128, 197, 25);
+}
+
+/* SHOPPING CART */
+.shop-cart {
+    color: white;
+}
+
+.bg-softdark {
+    background-color: rgb(59, 59, 59);
+}
+
+.shop-cart button {
+    border: none;
+}
+
+.btn-cart {
+    background-color: black;
+    color: white;
+}
+
+.btn-checkout {
+    background-color: red;
+    color: white;
+}
+
+.btn-checkout:hover {
+    background-color: rgb(128, 197, 25);
+}
+
+/* CARD-PRIORITY */
+.card-priority h6 {
+    color: red;
+}
+
+.card-priority button {
+    border: none;
+    background-color: rgb(128, 197, 25);
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+}
+
+.card-priority button:hover {
+    background-color: red;
+}
+
+/* SPECIAL DISCOUNT */
+.bg-softgreen {
+    background-color: rgb(128, 197, 25);
+}
+
+.bg-softgray {
+    background-color: rgb(241, 241, 241);
+}
+
+.card-discount h6 {
+    color: red;
+}
+
+/* THIRD CONT CARD 01 */
+.third-cont p {
+    font-size: 14px;
+}
+
+.social-media-img{
+    width: 30px;
+}
+
+/* THIRD CONT CARD 03 */
+.paragraph p {
+    font-size: 12px;
+}
+
+.paragraph-3 p:nth-child(2) {
+    color: red;
+    font-weight: 600;
+}
+
+.paragraph-4 p:first-child {
+    color: red;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+span {
+    color: red;
+}
+
+/* FOOTER */
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer button {
+    border: none;
+}
+
+/* FOOTER COPYRIGHT */
+.footer-copyright {
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+
