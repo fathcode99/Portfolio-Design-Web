@@ -1,6 +1,38 @@
+
 body {
     font-family: 'Roboto Slab', serif;
 }
+
+/* RESPONSIVE FONT SIZE */
+h1 {
+    font-size: 3vw;
+}
+
+h5 {
+    font-size: 2vw;
+}
+
+h6 {
+    font-size: 1.5vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
+a {
+    font-size: 1vw;
+}
+
+.fs-button {
+    font-size: 1vw;
+}
+
+button {
+    font-size: 1vw;
+    border: none;
+}
+
 
 /* TOP BAR */
 .top-bar {
@@ -9,7 +41,6 @@ body {
 
 .brand h1 {
     font-weight: bold;
-    font-size: 24px;
 }
 
 .order h5 {
@@ -27,7 +58,6 @@ body {
 
 .nav-bar-row a {
     font-weight: 500;
-    font-size: 16px;
     text-decoration: none;
     color: rgb(255, 248, 236);
 }
@@ -36,23 +66,15 @@ body {
     background-color: red;
 }
 
-.search-bar button {
-    border: none;
-}
-
-input {
-    border: none;
-}
-
 /* MAIN CONTAINER */
 .left-bar p {
     font-weight: 400;
-    font-size: 14px;
 }
+
 /* TITLE CARD */
-.title-card h5 {
+/* .title-card h5 {
     border-bottom: 3px solid rgb(128, 197, 25);
-}
+} */
 
 /* SHOPPING CART */
 .shop-cart {
@@ -90,7 +112,6 @@ input {
     border: none;
     background-color: rgb(128, 197, 25);
     font-weight: bold;
-    font-size: 12px;
     color: white;
 }
 
@@ -112,18 +133,15 @@ input {
 }
 
 /* THIRD CONT CARD 01 */
-.third-cont p {
-    font-size: 14px;
+.social-media-img{
+    width: 2vw;
 }
 
-.social-media-img{
-    width: 30px;
+.social-media-img2 {
+    width: 3vw;
 }
 
 /* THIRD CONT CARD 03 */
-.paragraph p {
-    font-size: 12px;
-}
 
 .paragraph-3 p:nth-child(2) {
     color: red;
@@ -133,7 +151,6 @@ input {
 .paragraph-4 p:first-child {
     color: red;
     font-weight: 600;
-    font-size: 14px;
 }
 
 span {
@@ -144,11 +161,9 @@ span {
 .footer a {
     text-decoration: none;
     color: black;
-    font-size: 14px;
 }
 
 .footer p {
-    font-size: 14px;
 }
 
 .footer button {
@@ -158,8 +173,5 @@ span {
 /* FOOTER COPYRIGHT */
 .footer-copyright {
     color: white;
-    font-size: 13px;
     font-weight: 200;
 }
-
-
