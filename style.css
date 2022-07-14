@@ -13,26 +13,33 @@ h5 {
 }
 
 h6 {
-    font-size: 1.5vw;
+    font-size: 2.5vh;
 }
 
 p {
-    font-size: 1vw;
+    font-size: 2vh;
+}
+
+.footer p, .third-cont p, .footer-copyright p{
+    font-size: 1.5vh;
 }
 
 a {
-    font-size: 1vw;
+    font-size: 2vh;
+}
+
+.footer a {
+    font-size: 1.5vh;
 }
 
 .fs-button {
-    font-size: 1vw;
+    font-size: 1vh;
 }
 
 button {
     font-size: 1vw;
     border: none;
 }
-
 
 /* TOP BAR */
 .top-bar {
@@ -72,9 +79,9 @@ button {
 }
 
 /* TITLE CARD */
-/* .title-card h5 {
-    border-bottom: 3px solid rgb(128, 197, 25);
-} */
+.title-card h5 {
+    border-bottom: 0.5vh solid rgb(128, 197, 25);
+}
 
 /* SHOPPING CART */
 .shop-cart {
@@ -95,12 +102,12 @@ button {
 }
 
 .btn-checkout {
-    background-color: red;
+    background-color: rgb(128, 197, 25);
     color: white;
 }
 
 .btn-checkout:hover {
-    background-color: rgb(128, 197, 25);
+    background-color: rgb(25, 134, 197);
 }
 
 /* CARD-PRIORITY */
@@ -116,7 +123,7 @@ button {
 }
 
 .card-priority button:hover {
-    background-color: red;
+    background-color: rgb(25, 134, 197);
 }
 
 /* SPECIAL DISCOUNT */
@@ -161,9 +168,6 @@ span {
 .footer a {
     text-decoration: none;
     color: black;
-}
-
-.footer p {
 }
 
 .footer button {
