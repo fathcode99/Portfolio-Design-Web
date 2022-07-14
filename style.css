@@ -4,8 +4,19 @@ body {
 }
 
 /* RESPONSIVE FONT SIZE */
-h1 {
-    font-size: 3vw;
+.top-bar h1 {
+    font-size: 4vw;
+}
+.top-bar p {
+    font-size: 1.5vw;
+}
+
+.nav-bar a {
+    font-size: 2vw;
+}
+
+.special-discount h1 {
+    font-size: 2vh;
 }
 
 h5 {
@@ -37,7 +48,7 @@ a {
 }
 
 button {
-    font-size: 1vw;
+    font-size: 1.1vh;
     border: none;
 }
 
@@ -48,10 +59,6 @@ button {
 
 .brand h1 {
     font-weight: bold;
-}
-
-.order h5 {
-    font-weight: 600;
 }
 
 /* NAV BAR */
